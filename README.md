@@ -243,5 +243,3 @@ Al término de la práctica el estudiante debe evidenciar:
 | 5 | CADENA\_DE\_CUSTODIA.md con las filas completas y horas en UTC | Contenido del archivo |
 | 6 | Hallazgo H-001.md con los cinco bloques de la estructura CCCER | Contenido del archivo |
 | 7 | Demostración de que modificar un artefacto rompe el hash registrado | Captura del antes y el después |
-
-## Toda la evidencia subida a un repositorio propio en Github, por tano presentan la carátula UPT, la URL github y las conclusiones
