@@ -125,6 +125,7 @@ Comprobación de servicios:
 <img width="845" height="546" alt="image" src="https://github.com/user-attachments/assets/86bdfe3a-f8cd-4d9b-8fd5-6ef13905248e" />
 <img width="858" height="384" alt="image" src="https://github.com/user-attachments/assets/f8a99284-597f-438a-b78c-c73b1c1fa023" />
 <img width="691" height="681" alt="image" src="https://github.com/user-attachments/assets/657defb5-a4c7-483f-860c-d1dc1b396c53" />
+<img width="1358" height="429" alt="image" src="https://github.com/user-attachments/assets/e6ce2725-799b-4c4a-91df-771c6d45a7b1" />
 
 
 ### Paso C — Capturar la línea base del sistema auditado (25 min)
