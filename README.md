@@ -4,7 +4,7 @@
 
 **ESCUELA DE INGENIERÍA DE SISTEMAS**
 
-<img width="179" height="177" alt="image" src="https://github.com/user-attachments/assets/5548815a-9637-43e6-802e-3c50fb061a3e" />
+<img width="168" height="179" alt="image" src="https://github.com/user-attachments/assets/a6eaaaf1-96fd-49f5-986a-230ebccb5ba5" />
 
 **Guía Práctica de Laboratorio**
 
