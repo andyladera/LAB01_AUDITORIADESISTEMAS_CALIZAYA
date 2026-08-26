@@ -17,7 +17,8 @@ git init
 | 40\_hallazgos | Un archivo por hallazgo, con estructura CCCER |
 | 50\_informe | Informe final (Unidad III) |
 
-![alt text](image-1.png)
+<img width="868" height="319" alt="image" src="https://github.com/user-attachments/assets/179f35ce-98f2-46aa-89ac-6569a5d09623" />
+
 
 Se crea el archivo de control de custodia:
 
@@ -28,6 +29,8 @@ cat \> 20\_evidencia/CADENA\_DE\_CUSTODIA.md \<\<'FIN'
 |----|---------|---------|--------------------|--------------|---------------------|----------------|  
 FIN  
 git add . **&&** git commit \-m "Estructura inicial del expediente de auditoria"
+
+<img width="861" height="245" alt="image" src="https://github.com/user-attachments/assets/ce8e7aba-385b-46b0-8d3a-e2ee94d528be" />
 
 
 ### Paso B — Definir el entorno auditable (30 min)
@@ -119,6 +122,10 @@ Comprobación de servicios:
 | Portal WordPress | http://127.0.0.1:8082 |
 | PostgreSQL | 127.0.0.1:5432 |
 
+<img width="845" height="546" alt="image" src="https://github.com/user-attachments/assets/86bdfe3a-f8cd-4d9b-8fd5-6ef13905248e" />
+<img width="858" height="384" alt="image" src="https://github.com/user-attachments/assets/f8a99284-597f-438a-b78c-c73b1c1fa023" />
+<img width="691" height="681" alt="image" src="https://github.com/user-attachments/assets/657defb5-a4c7-483f-860c-d1dc1b396c53" />
+
 
 ### Paso C — Capturar la línea base del sistema auditado (25 min)
 
@@ -146,6 +153,8 @@ docker exec si084\_db psql \-U erp\_app \-d erp \-c "\\du" \> usuarios\_postgres
 docker inspect si084\_db \--format '{{json .Config.Env}}' \> env\_db.json
 
 **Observación de auditor.** El paso 6 casi siempre produce el primer hallazgo del curso: las credenciales viajan en variables de entorno en texto claro y son visibles para cualquiera con acceso al *socket* de Docker.
+
+<img width="492" height="635" alt="image" src="https://github.com/user-attachments/assets/7af930ce-ea60-4367-850b-01f26dc86dcd" />
 
 
 ### Paso D — Sellar la evidencia (cadena de custodia) (25 min)
@@ -177,6 +186,8 @@ git log \--format\='%H  %aI  %s' \-1
 echo "linea agregada" \>\> 20\_evidencia/E01\_baseline/puertos.tsv  
 sha256sum 20\_evidencia/E01\_baseline/puertos.tsv     *\# el hash difiere del registrado*  
 git checkout \-- 20\_evidencia/E01\_baseline/puertos.tsv   *\# se restaura*
+
+<img width="759" height="733" alt="image" src="https://github.com/user-attachments/assets/d7d2e254-e98e-4686-8ca1-3c439fd40d23" />
 
 
 ### Paso E — Primer hallazgo documentado (25 min)
@@ -214,6 +225,9 @@ Migrar las credenciales a ***\`docker secret\`*** o a un gestor de secretos exte
 contraseñas de servicio de al menos 16 caracteres generadas aleatoriamente; restringir el  
 acceso al socket de Docker al grupo de administradores. Responsable: Jefe de Infraestructura.  
 Plazo: 30 días.
+
+<img width="771" height="733" alt="image" src="https://github.com/user-attachments/assets/2057d3ac-42b1-4e46-9e19-8e8ae4176abc" />
+
 
 ## 3\. Resultados
 
